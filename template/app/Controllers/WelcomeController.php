@@ -7,7 +7,7 @@ class WelcomeController
 		$hello = 'Viel Spass beim Programmieren!';
 		
 		$stylesheets = [];
-		$page = "welcome";
+		$pageView = "welcome";
 		require 'app/Views/Templates/base.php';
 	}
 

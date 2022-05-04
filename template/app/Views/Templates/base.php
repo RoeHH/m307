@@ -16,12 +16,12 @@
 </head>
 
 <body>
-    
+
     <?php require 'app/Views/Templates/header.php'; ?>
 
     <div class="container">
 
-        <?php require 'app/Views/Pages/' . $page . '.view.php'; ?>
+        <?php require 'app/Views/Pages/' . $pageView . '.view.php'; ?>
 
     </div>
     
