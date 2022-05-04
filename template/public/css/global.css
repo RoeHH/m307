@@ -1,0 +1,27 @@
+:root{
+    --color-primary: #D3E9ED;
+    --color-secondary: #6DC290;
+    --color-tertiary: #40A889;
+    --color-quaternary: #4F5956;
+    --color-text-primary: #212121;
+    --color-text-secondary: #122928;
+}
+
+body {
+    background-color: var(--color-quaternary);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-color: var(--color-tertiary);
+    height: 100vh;
+    margin: 0 auto;
+    max-width: 600px;
+    padding: 50px 30px;
+}
+
+a, a:visited {
+    color: #555;
+}
